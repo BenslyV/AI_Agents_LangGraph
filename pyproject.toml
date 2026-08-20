@@ -1,0 +1,28 @@
+[project]
+name = "ai-agents-langgraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "BenslyV", email = "bensly.v@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "langchain>=1.3.14",
+    "langchain-community>=0.4.2",
+    "langchain-groq>=1.1.3",
+    "langchain-ollama>=1.1.0",
+    "langchain-tavily>=0.2.18",
+    "langgraph>=1.2.10",
+    "langgraph-cli[inmem]>=0.4.31",
+    "langsmith>=0.10.17",
+    "python-dotenv>=1.2.2",
+]
+
+[project.scripts]
+ai-agents-langgraph = "ai_agents_langgraph:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
