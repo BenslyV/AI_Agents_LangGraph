@@ -1,32 +1,84 @@
+# -------------------------------
+# LangChain ecosystem
+# -------------------------------
 langchain
-python-dotenv
-ipykernel
+langchain-core
 langchain-community
+langchain-openai
+langchain-huggingface
+langchain-groq
+langchain-tavily
+langchain-ollama
+langchain-text-splitters
+langchain-chroma
+langchain-astradb
+langsmith
+langchainhub
+
+# -------------------------------
+# LangGraph ecosystem
+# -------------------------------
+langgraph
+langgraph-cli[inmem]
+
+# -------------------------------
+# Vector databases & embeddings
+# -------------------------------
+chromadb
+faiss-cpu
+sentence-transformers==3.0.1
+huggingface_hub
+
+# -------------------------------
+# Document loaders & parsers
+# -------------------------------
 pypdf
+PyPDF2
+pymupdf
 bs4
 arxiv
-pymupdf
 wikipedia
-langchain-text-splitters
-langchain-openai
-chromadb
-sentence_transformers
-langchain_huggingface
-faiss-cpu
-langchain_chroma
-duckdb
-pandas
-openai
-langchain-groq
-duckduckgo-search
-pymupdf
-arxiv
-wikipedia
-mysql-connector-python
-SQLAlchemy
-validators==0.28.1
 youtube_transcript_api
 unstructured
 pytube
+
+# -------------------------------
+# Databases & storage
+# -------------------------------
+duckdb
+mysql-connector-python
+SQLAlchemy
+psycopg[binary]
+
+# -------------------------------
+# Data science
+# -------------------------------
+pandas
 numexpr
-huggingface_hub
+datasets
+
+# -------------------------------
+# Utilities & helpers
+# -------------------------------
+python-dotenv
+ipykernel
+validators==0.28.1
+duckduckgo_search==5.3.1b1
+ddgs
+tiktoken
+cassio
+
+# -------------------------------
+# LLM & API
+# -------------------------------
+openai
+transformers
+torch
+
+# -------------------------------
+# Deployment & serving
+# -------------------------------
+fastapi
+streamlit
+langserve
+gradio
