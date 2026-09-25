@@ -1,83 +1,100 @@
-# -------------------------------
+# ============================================================
 # LangChain ecosystem
-# -------------------------------
+# ============================================================
 langchain
 langchain-core
 langchain-community
+langchain-text-splitters
 langchain-openai
 langchain-huggingface
 langchain-groq
+langchain-nvidia-ai-endpoints
 langchain-tavily
 langchain-ollama
-langchain-text-splitters
 langchain-chroma
 langchain-astradb
+langchain-experimental
+langchain-neo4j
 langsmith
 langchainhub
 
-# -------------------------------
-# LangGraph ecosystem
-# -------------------------------
+# ============================================================
+# LangGraph
+# ============================================================
 langgraph
 langgraph-cli[inmem]
 
-# -------------------------------
+# ============================================================
+# Neo4j
+# ============================================================
+neo4j==5.14
+neo4j>=5.25.0,<6.0.0
+
+# ============================================================
 # Vector databases & embeddings
-# -------------------------------
-chromadb
+# ============================================================
 faiss-cpu
+pinecone
 sentence-transformers==3.0.1
 huggingface_hub
 
-# -------------------------------
-# Document loaders & parsers
-# -------------------------------
-pypdf
-PyPDF2
+# ============================================================
+# Document loaders, parsers & web content
+# ============================================================
 pymupdf
-bs4
+beautifulsoup4
 arxiv
 wikipedia
 youtube_transcript_api
 unstructured
 pytube
 
-# -------------------------------
-# Databases & storage
-# -------------------------------
+# ============================================================
+# Databases & data storage
+# ============================================================
 duckdb
 mysql-connector-python
 SQLAlchemy
 psycopg[binary]
+cassio
 
-# -------------------------------
-# Data science
-# -------------------------------
+# ============================================================
+# Data science & datasets
+# ============================================================
 pandas
 numexpr
 datasets
 
-# -------------------------------
-# Utilities & helpers
-# -------------------------------
-python-dotenv
-ipykernel
-validators==0.28.1
-duckduckgo_search==5.3.1b1
-ddgs
-tiktoken
-cassio
-
-# -------------------------------
-# LLM & API
-# -------------------------------
+# ============================================================
+# LLMs, ML & model APIs
+# ============================================================
 openai
 transformers
 torch
+google-genai
+tiktoken
+lamini
 
-# -------------------------------
-# Deployment & serving
-# -------------------------------
+# ============================================================
+# Google APIs
+# ============================================================
+google-api-python-client
+
+# ============================================================
+# Search & retrieval utilities
+# ============================================================
+ddgs
+validators==0.28.1
+
+# ============================================================
+# Environment, notebooks & utilities
+# ============================================================
+python-dotenv
+ipykernel
+
+# ============================================================
+# Deployment, APIs & UI
+# ============================================================
 fastapi
 streamlit
 langserve
